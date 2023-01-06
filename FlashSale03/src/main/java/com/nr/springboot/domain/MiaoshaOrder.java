@@ -1,4 +1,4 @@
-package com.imooc.miaosha.domain;
+package com.nr.springboot.domain;
 
 public class MiaoshaOrder {
 	private Long id;

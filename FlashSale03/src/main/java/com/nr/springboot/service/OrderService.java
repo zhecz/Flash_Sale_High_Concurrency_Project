@@ -1,16 +1,15 @@
-package com.imooc.miaosha.service;
+package com.nr.springboot.service;
 
-import java.util.Date;
-
+import com.nr.springboot.dao.OrderDao;
+import com.nr.springboot.domain.MiaoshaOrder;
+import com.nr.springboot.domain.MiaoshaUser;
+import com.nr.springboot.domain.OrderInfo;
+import com.nr.springboot.vo.GoodsVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.imooc.miaosha.dao.OrderDao;
-import com.imooc.miaosha.domain.MiaoshaOrder;
-import com.imooc.miaosha.domain.MiaoshaUser;
-import com.imooc.miaosha.domain.OrderInfo;
-import com.imooc.miaosha.vo.GoodsVo;
+import java.util.Date;
 
 @Service
 public class OrderService {

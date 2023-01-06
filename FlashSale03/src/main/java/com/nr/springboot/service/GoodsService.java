@@ -1,13 +1,12 @@
-package com.imooc.miaosha.service;
+package com.nr.springboot.service;
 
-import java.util.List;
-
+import com.nr.springboot.dao.GoodsDao;
+import com.nr.springboot.domain.MiaoshaGoods;
+import com.nr.springboot.vo.GoodsVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.imooc.miaosha.dao.GoodsDao;
-import com.imooc.miaosha.domain.MiaoshaGoods;
-import com.imooc.miaosha.vo.GoodsVo;
+import java.util.List;
 
 @Service
 public class GoodsService {

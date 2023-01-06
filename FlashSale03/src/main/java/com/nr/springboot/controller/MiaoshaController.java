@@ -1,21 +1,20 @@
-package com.imooc.miaosha.controller;
+package com.nr.springboot.controller;
 
+import com.nr.springboot.domain.MiaoshaOrder;
+import com.nr.springboot.domain.MiaoshaUser;
+import com.nr.springboot.domain.OrderInfo;
+import com.nr.springboot.redis.RedisService;
+import com.nr.springboot.result.CodeMsg;
+import com.nr.springboot.service.GoodsService;
+import com.nr.springboot.service.MiaoshaService;
+import com.nr.springboot.service.MiaoshaUserService;
+import com.nr.springboot.service.OrderService;
+import com.nr.springboot.vo.GoodsVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-
-import com.imooc.miaosha.domain.MiaoshaOrder;
-import com.imooc.miaosha.domain.MiaoshaUser;
-import com.imooc.miaosha.domain.OrderInfo;
-import com.imooc.miaosha.redis.RedisService;
-import com.imooc.miaosha.result.CodeMsg;
-import com.imooc.miaosha.service.GoodsService;
-import com.imooc.miaosha.service.MiaoshaService;
-import com.imooc.miaosha.service.MiaoshaUserService;
-import com.imooc.miaosha.service.OrderService;
-import com.imooc.miaosha.vo.GoodsVo;
 
 @Controller
 @RequestMapping("/miaosha")

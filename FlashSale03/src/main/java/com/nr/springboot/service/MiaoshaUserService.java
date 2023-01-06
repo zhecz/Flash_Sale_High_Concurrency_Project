@@ -1,13 +1,6 @@
 package com.nr.springboot.service;
 
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServletResponse;
-
 import com.nr.springboot.dao.MiaoshaUserDao;
-import org.apache.commons.lang3.StringUtils;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import com.nr.springboot.domain.MiaoshaUser;
 import com.nr.springboot.exception.GlobalException;
 import com.nr.springboot.redis.MiaoshaUserKey;
@@ -16,6 +9,12 @@ import com.nr.springboot.result.CodeMsg;
 import com.nr.springboot.util.MD5Util;
 import com.nr.springboot.util.UUIDUtil;
 import com.nr.springboot.vo.LoginVo;
+import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletResponse;
 
 @Service
 public class MiaoshaUserService {

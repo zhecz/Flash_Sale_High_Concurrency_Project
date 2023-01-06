@@ -1,7 +1,7 @@
 package com.nr.springboot.dao;
 
-import com.imooc.miaosha.domain.MiaoshaOrder;
-import com.imooc.miaosha.domain.OrderInfo;
+import com.nr.springboot.domain.MiaoshaOrder;
+import com.nr.springboot.domain.OrderInfo;
 import org.apache.ibatis.annotations.*;
 
 @Mapper

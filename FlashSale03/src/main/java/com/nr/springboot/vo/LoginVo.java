@@ -1,10 +1,9 @@
 package com.nr.springboot.vo;
 
-import javax.validation.constraints.NotNull;
-
+import com.nr.springboot.validator.IsMobile;
 import org.hibernate.validator.constraints.Length;
 
-import com.nr.springboot.validator.IsMobile;
+import javax.validation.constraints.NotNull;
 
 public class LoginVo {
 	

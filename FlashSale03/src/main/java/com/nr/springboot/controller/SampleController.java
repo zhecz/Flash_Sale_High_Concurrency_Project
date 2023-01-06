@@ -1,17 +1,16 @@
 package com.nr.springboot.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-
 import com.nr.springboot.domain.User;
 import com.nr.springboot.redis.RedisService;
 import com.nr.springboot.redis.UserKey;
 import com.nr.springboot.result.CodeMsg;
 import com.nr.springboot.result.Result;
 import com.nr.springboot.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 @RequestMapping("/demo")

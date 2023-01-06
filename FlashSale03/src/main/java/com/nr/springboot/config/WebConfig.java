@@ -11,7 +11,7 @@ import java.util.List;
 public class WebConfig  extends WebMvcConfigurerAdapter{
 	
 	@Autowired
-    com.nr.springboot.config.UserArgumentResolver userArgumentResolver;
+    UserArgumentResolver userArgumentResolver;
 	
 	@Override
 	public void addArgumentResolvers(List<HandlerMethodArgumentResolver> argumentResolvers) {

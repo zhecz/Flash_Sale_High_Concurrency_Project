@@ -1,14 +1,15 @@
-package com.imooc.miaosha.vo;
+package com.nr.springboot.vo;
+
+import com.nr.springboot.domain.Goods;
 
 import java.util.Date;
-
-import com.imooc.miaosha.domain.Goods;
 
 public class GoodsVo extends Goods{
 	private Double miaoshaPrice;
 	private Integer stockCount;
 	private Date startDate;
 	private Date endDate;
+
 	public Integer getStockCount() {
 		return stockCount;
 	}
