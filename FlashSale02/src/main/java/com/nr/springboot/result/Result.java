@@ -22,6 +22,8 @@ public class Result<T> {
 	
 	private Result(T data) {
 		this.data = data;
+		//this.code = 0;
+		//this.msg = "success";
 	}
 	
 	private Result(int code, String msg) {
