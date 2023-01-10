@@ -6,8 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="FlashSale06" />
+        <module name="FlashSale05" />
         <module name="FlashSale02" />
         <module name="FlashSale01" />
+        <module name="FlashSale04" />
+        <module name="FlashSale03" />
       </profile>
     </annotationProcessing>
   </component>

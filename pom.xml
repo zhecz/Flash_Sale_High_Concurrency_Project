@@ -11,6 +11,10 @@
     <modules>
         <module>FlashSale01</module>
         <module>FlashSale02</module>
+        <module>FlashSale03</module>
+        <module>FlashSale04</module>
+        <module>FlashSale05</module>
+        <module>FlashSale06</module>
     </modules>
 
     <properties>
